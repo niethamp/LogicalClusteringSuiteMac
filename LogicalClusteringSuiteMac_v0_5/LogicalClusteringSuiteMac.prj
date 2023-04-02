@@ -1,0 +1,144 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="/Users/uniethammer/MATLAB-Drive/LogicalClusteringSuiteV0_5beta/WebDownloadRuntime/LogicalClusteringSuiteMac_v0_5/LogicalClusteringSuiteMac.prj" location="/Users/uniethammer/MATLAB-Drive/LogicalClusteringSuiteV0_5beta/WebDownloadRuntime/LogicalClusteringSuiteMac_v0_5" name="LogicalClusteringSuiteMac" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>LogicalClusteringSuiteMac</param.appname>
+    <param.icon>${PROJECT_ROOT}/LogicalClusteringSuiteMac_resources/icon.icns</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}/LogicalClusteringSuiteMac_resources/icon_48.png</file>
+      <file>${PROJECT_ROOT}/LogicalClusteringSuiteMac_resources/icon_32.png</file>
+      <file>${PROJECT_ROOT}/LogicalClusteringSuiteMac_resources/icon_24.png</file>
+      <file>${PROJECT_ROOT}/LogicalClusteringSuiteMac_resources/icon_16.png</file>
+    </param.icons>
+    <param.version>0.5</param.version>
+    <param.authnamewatermark>Philipp Niethammer</param.authnamewatermark>
+    <param.email>sgcafeedback@gmail.com</param.email>
+    <param.company />
+    <param.summary>Simple Gene Correlation Analysis (sGCA) standalone application with graphical user interface for Mac.</param.summary>
+    <param.description>sGCA has been originally published in Ma et al., Cell Rep, 2023 under a CC BY-NC-ND 4.0 license (i.e., no commerical use, no component remixing, republishing, or redistribution). Download of MATLAB runtime from web required. This is an experimental application that is still under development. Please use with due caution and report issues to sgcafeedback@gmail.com. For more details, please refer to the manual and the tooltips.</param.description>
+    <param.screenshot>/Users/uniethammer/MATLAB-Drive/sGCAlogo.jpg</param.screenshot>
+    <param.guid />
+    <param.installpath.string>/LogicalClusteringSuiteMac/</param.installpath.string>
+    <param.installpath.combo>option.installpath.systemwideapp</param.installpath.combo>
+    <param.logo>/Users/uniethammer/MATLAB-Drive/sGCAlogoColor.jpg</param.logo>
+    <param.install.notes />
+    <param.target.install.notes>In the following directions, replace MR/R2023a by the directory on the target machine where MATLAB is installed, or MR by the directory where the MATLAB Runtime is installed.
+
+If the environment variable DYLD_LIBRARY_PATH is undefined, set it to the following string:
+
+MR/R2023a/runtime/maci64:MR/R2023a/sys/os/maci64:MR/R2023a/bin/maci64
+
+If it is defined, set it to the following:
+
+${DYLD_LIBRARY_PATH}:MR/R2023a/runtime/maci64:MR/R2023a/sys/os/maci64:MR/R2023a/bin/maci64</param.target.install.notes>
+    <param.intermediate>${PROJECT_ROOT}/LogicalClusteringSuiteMac/for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}/LogicalClusteringSuiteMac/for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}/LogicalClusteringSuiteMac/for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}/icalClusteringSuiteMac/Users/uniethammer/MATLAB-Drive/LogicalClusteringSuiteV0_5beta/WebDownloadRuntime/LogicalClusteringSuiteMac_v0_5/Log</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments 
+ Description 
+ 	 sGCA has been originally published in Ma et al., Cell Rep, 2023 under a CC BY-NC-ND 4.0 license (i.e., no commerical use, no component remixing, republishing, or redistribution). Download of MATLAB runtime from web required. This is an experimental application that is still under development. Please use with due caution and report issues to sgcafeedback@gmail.com. For more details, please refer to the manual and the tooltips.</param.help.text>
+    <unset>
+      <param.company />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>/Users/uniethammer/MATLAB-Drive/LCS_v0_5mac.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package>
+      <file>/Users/uniethammer/MATLAB-Drive/CellRep2023_ScaledCounts.xlsx</file>
+      <file>/Users/uniethammer/MATLAB-Drive/Immunity2018_ScaledCounts.xlsx</file>
+      <file>/Users/uniethammer/MATLAB-Drive/LCSmanual230331.pdf</file>
+      <file>/Users/uniethammer/MATLAB-Drive/zclmarkerlist.xlsx</file>
+    </fileset.package>
+    <fileset.depfun>
+      <file>/Users/uniethammer/MATLAB-Drive/291716_github_logo_social network_social_icon.png</file>
+      <file>/Users/uniethammer/MATLAB-Drive/BoxplotGroups.m</file>
+      <file>/Users/uniethammer/MATLAB-Drive/MSKlogo.jpg</file>
+      <file>/Users/uniethammer/MATLAB-Drive/ParseRawGeneTable.m</file>
+      <file>/Users/uniethammer/MATLAB-Drive/Twitter.png</file>
+      <file>/Users/uniethammer/MATLAB-Drive/colMapGen.m</file>
+      <file>/Users/uniethammer/MATLAB-Drive/datestr8601.m</file>
+      <file>/Users/uniethammer/MATLAB-Drive/researchgate.png</file>
+      <file>/Users/uniethammer/MATLAB-Drive/sGCAError.jpg</file>
+      <file>/Users/uniethammer/MATLAB-Drive/sGCA_pic.jpg</file>
+      <file>/Users/uniethammer/MATLAB-Drive/sGCAfunction_inGUI.m</file>
+      <file>/Users/uniethammer/MATLAB-Drive/sGCAlogoColor.jpg</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}/LogicalClusteringSuiteMac/for_testing" name="LogicalClusteringSuiteMac.app" optional="false">/Users/uniethammer/MATLAB-Drive/LogicalClusteringSuiteV0_5beta/WebDownloadRuntime/LogicalClusteringSuiteMac_v0_5/LogicalClusteringSuiteMac/for_testing/LogicalClusteringSuiteMac.app</file>
+      <file location="${PROJECT_ROOT}/LogicalClusteringSuiteMac/for_testing" name="readme.txt" optional="true">/Users/uniethammer/MATLAB-Drive/LogicalClusteringSuiteV0_5beta/WebDownloadRuntime/LogicalClusteringSuiteMac_v0_5/LogicalClusteringSuiteMac/for_testing/readme.txt</file>
+      <file location="${PROJECT_ROOT}/LogicalClusteringSuiteMac/for_testing" name="run_LogicalClusteringSuiteMac.sh" optional="false">/Users/uniethammer/MATLAB-Drive/LogicalClusteringSuiteV0_5beta/WebDownloadRuntime/LogicalClusteringSuiteMac_v0_5/LogicalClusteringSuiteMac/for_testing/run_LogicalClusteringSuiteMac.sh</file>
+      <file location="${PROJECT_ROOT}/LogicalClusteringSuiteMac/for_testing" name="splash.png" optional="false">/Users/uniethammer/MATLAB-Drive/LogicalClusteringSuiteV0_5beta/WebDownloadRuntime/LogicalClusteringSuiteMac_v0_5/LogicalClusteringSuiteMac/for_testing/splash.png</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/Applications/MATLAB_R2023a.app</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>true</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>13.2.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>maci64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
