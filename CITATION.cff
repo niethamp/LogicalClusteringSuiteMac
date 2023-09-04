@@ -1,9 +1,0 @@
-cff-version: 1.0
-message: "If you use this software, please cite it as below."
-authors:
-  - family-names: Niethammer
-    given-names: Philipp
-    orcid: https://orcid.org/0000-0003-4175-4012
-title: Logical Clustering Suite v0.5beta (Mac PCs)
-version: LCS_Mac_v0.5
-date-released: 2023-04-04
